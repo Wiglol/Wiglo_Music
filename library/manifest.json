@@ -1,0 +1,199 @@
+{
+  "version": 1,
+  "tracks": [
+    {
+      "id": "15",
+      "mp3": "15.mp3",
+      "txt": "15.txt",
+      "title": "SleepyLofySong",
+      "description": "Sleepy lofi to listen to while working or studying",
+      "tags": [
+        "studying",
+        "late-night chill",
+        "working"
+      ]
+    },
+    {
+      "id": "14",
+      "mp3": "14.mp3",
+      "txt": "14.txt",
+      "title": "霧の朝まで – Until the Misty Morning",
+      "description": "An extra-sleepy lounge track made for late-night drifting into early morning. Very soft, steady, and comforting.",
+      "tags": [
+        "sleep playlists",
+        "long study sessions",
+        "night ambience",
+        "relaxation"
+      ]
+    },
+    {
+      "id": "13",
+      "mp3": "13.mp3",
+      "txt": "13.txt",
+      "title": "曇りガラス – Fogged Glass",
+      "description": "A minimal, sleepy bossa track with soft “quiet room” energy. Gentle and smooth, like tracing shapes on fogged glass.",
+      "tags": [
+        "sleep",
+        "calm study",
+        "background music",
+        "rainy days"
+      ]
+    },
+    {
+      "id": "12",
+      "mp3": "12.mp3",
+      "txt": "12.txt",
+      "title": "トーストの音 – The Sound of Toast",
+      "description": "A soft, slightly dreamy lounge track about comfort foods and half-energy days. Smooth rhythm, warm mood, no stress.",
+      "tags": [
+        "cozy playlists",
+        "calm mornings/nights",
+        "studying",
+        "relaxing"
+      ]
+    },
+    {
+      "id": "11",
+      "mp3": "11.mp3",
+      "txt": "11.txt",
+      "title": "終電のあと – After the Last Train",
+      "description": "A quiet late-night station mood in bossa/lounge form: calm, reflective, and steady. Feels like the city breathing after everything ends.",
+      "tags": [
+        "late-night calm",
+        "focus",
+        "background music",
+        "mellow mood"
+      ]
+    },
+    {
+      "id": "10",
+      "mp3": "10.mp3",
+      "txt": "10.txt",
+      "title": "レモンの月 – Lemon Moon",
+      "description": "Dreamy, mellow lounge pop with warm chords and a sleepy “moonlight” feel. Smooth enough to loop for hours without getting tiring.",
+      "tags": [
+        "sleep playlists",
+        "studying",
+        "relaxing",
+        "night-time ambience"
+      ]
+    },
+    {
+      "id": "9",
+      "mp3": "9.mp3",
+      "txt": "9.txt",
+      "title": "街灯とミント – Streetlight & Mint",
+      "description": "A night stroll bossa track with cool, fresh calm. Gentle rhythm and soft imagery that keeps the mood relaxed and steady.",
+      "tags": [
+        "night walks",
+        "calm focus",
+        "background lounge",
+        "chill playlists"
+      ]
+    },
+    {
+      "id": "8",
+      "mp3": "8.mp3",
+      "txt": "8.txt",
+      "title": "午前のやわらかさ – Morning Softness",
+      "description": "A light, sleepy morning lounge track that feels like soft daylight through curtains. Peaceful and minimal, for starting the day slowly.",
+      "tags": [
+        "morning routine",
+        "relaxing",
+        "journaling",
+        "quiet study"
+      ]
+    },
+    {
+      "id": "7",
+      "mp3": "7.mp3",
+      "txt": "7.txt",
+      "title": "海辺の信号 – Seaside Traffic Light",
+      "description": "A breezy, coastal bossa track with gentle warmth and slow confidence. Feels like walking near the sea with soft city lights behind you.",
+      "tags": [
+        "seaside vibes",
+        "chill driving",
+        "calm playlists",
+        "sunset mood"
+      ]
+    },
+    {
+      "id": "6",
+      "mp3": "6.mp3",
+      "txt": "6.txt",
+      "title": "夜ふかしのラテ – Late-Night Latte",
+      "description": "Soft, warm bossa lounge with a “late-night latte” vibe: mellow, comforting, and slightly dreamy. Made for nights when you can’t sleep but don’t want noise.",
+      "tags": [
+        "late nights",
+        "relaxation",
+        "studying",
+        "quiet comfort"
+      ]
+    },
+    {
+      "id": "5",
+      "mp3": "5.mp3",
+      "txt": "5.txt",
+      "title": "ページの隅で – In the Corner of a Page",
+      "description": "A gentle bookshop-style bossa track with a quiet, comforting story. Smooth, sleepy, and perfect for reading or journaling.",
+      "tags": [
+        "reading",
+        "calm focus",
+        "background music",
+        "soft playlists"
+      ]
+    },
+    {
+      "id": "4",
+      "mp3": "4.mp3",
+      "txt": "4.txt",
+      "title": "雨のカウンター – Rain Counter",
+      "description": "Rainy-night lounge bossa with soft rhythm and warm lighting vibes. It’s the feeling of sitting by the window while the world slows down outside.",
+      "tags": [
+        "rain ambience",
+        "late-night chill",
+        "studying",
+        "emotional calm"
+      ]
+    },
+    {
+      "id": "3",
+      "mp3": "3.mp3",
+      "txt": "3.txt",
+      "title": "交差点ブルー – Intersection Blue",
+      "description": "A more upbeat “city jazz pop” track with a tight groove and forward motion, but still smooth and stylish. The chorus is built to feel confident without getting loud.",
+      "tags": [
+        "night walks",
+        "city lights",
+        "driving",
+        "mood playlists"
+      ]
+    },
+    {
+      "id": "2",
+      "mp3": "2.mp3",
+      "txt": "2.txt",
+      "title": "砂糖ひとつ分 – One Sugar",
+      "description": "A cozy, classy Shibuya-kei bossa track that feels like a quiet reset. Gentle groove, warm chords, and a soft vocal that stays close and comforting.",
+      "tags": [
+        "relaxing",
+        "reading",
+        "night cafés",
+        "calm focus"
+      ]
+    },
+    {
+      "id": "1",
+      "mp3": "1.mp3",
+      "txt": "1.txt",
+      "title": "カフェの窓ぎわ – By the Café Window",
+      "description": "A warm Japanese bossa nova / lounge pop track with brushed drums, Rhodes piano, and a mellow late-night café atmosphere. Soft and sleepy, made for winding down and letting your thoughts slow down.",
+      "tags": [
+        "studying",
+        "late-night chill",
+        "café vibes",
+        "relaxing playlists"
+      ]
+    }
+  ]
+}
