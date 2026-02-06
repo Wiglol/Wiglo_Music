@@ -1606,23 +1606,7 @@ ${(t.tags||[]).join(' ')}`.toLowerCase();
     p1.className = 'meta';
     p1.style.whiteSpace = 'pre-wrap';
     p1.textContent =
-`Troubleshooting
-
-If buttons do nothing after you update the files, your browser is probably using a cached older version.
-
-Fix:
-  1) Hard refresh: Ctrl+F5 (or Ctrl+Shift+R)
-  2) If still weird: use the “Reset app data” button below
-
-Library loading
-
-Recommended: run a local server so the app can scan /library.
-
-  python -m http.server
-  open: http://localhost:8000
-
-Double-click (file://) works too, but you must use “Import folder…”.
-
+`
 Keyboard shortcuts
 
 Space / K  → play/pause
@@ -1630,7 +1614,7 @@ J / L      → -10s / +10s
 Ctrl/Cmd+K → focus search
 Esc        → close panels/menus
 
-TXT parsing rules are strict: Title is first non-empty line. “Description:” must match case. Tags are read from “Perfect for: …” split by •.`;
+`;
 
     const storage = document.createElement('div');
     storage.className = 'panel-section';
