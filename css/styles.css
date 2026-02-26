@@ -82,21 +82,17 @@ button { color: inherit; background: transparent; border: 0; cursor: none; }
   transform: translate(-50%, -50%);
   will-change: left, top;
 }
-.cursor-dot {
-  width: 5px; height: 5px;
-  background: var(--accent);
-  transition: transform 0.08s, width 0.15s, height 0.15s;
-}
+
 .cursor-outline {
-  width: 36px; height: 36px;
+  width: 25px; height: 25px;
   border: 1.5px solid var(--accent-dim);
   background: transparent;
-  opacity: 0.7;
-  transition: transform 0.15s ease, border-color 0.2s, opacity 0.2s;
+  opacity: 0.9;
+
 }
 .cursor-dot.is-hovering   { width: 7px; height: 7px; }
 .cursor-outline.is-hovering {
-  transform: translate(-50%, -50%) scale(1.7);
+  transform: translate(-25%, -25%) scale(1.1);
   border-color: var(--accent);
   opacity: 0.45;
 }
