@@ -74,32 +74,31 @@ button, input, select { font: inherit; }
 button { color: inherit; background: transparent; border: 0; cursor: none; }
 
 /* ---- CUSTOM CURSOR ---- */
-.cursor-dot, .cursor-outline {
+.cursor-dot { display: none; }
+.cursor-outline {
   position: fixed;
   pointer-events: none;
   z-index: 9999;
   border-radius: 50%;
   transform: translate(-50%, -50%);
   will-change: left, top;
-}
-
-.cursor-outline {
   width: 25px; height: 25px;
   border: 1.5px solid var(--accent-dim);
   background: transparent;
   opacity: 0.9;
-
+  transition: width 0.15s, height 0.15s, border-color 0.15s, opacity 0.15s, transform 0.12s;
 }
-.cursor-dot.is-hovering   { width: 7px; height: 7px; }
 .cursor-outline.is-hovering {
-  transform: translate(-25%, -25%) scale(1.1);
+  width: 34px; height: 34px;
   border-color: var(--accent);
-  opacity: 0.45;
+  opacity: 0.6;
 }
-.cursor-dot.is-clicking    { transform: translate(-50%, -50%) scale(0.65); }
-.cursor-outline.is-clicking { transform: translate(-50%, -50%) scale(0.82) !important; }
+.cursor-outline.is-clicking {
+  transform: translate(-50%, -50%) scale(0.8);
+  opacity: 0.5;
+}
 @media (pointer: coarse) {
-  .cursor-dot, .cursor-outline { display: none; }
+  .cursor-outline { display: none; }
   body, button { cursor: auto; }
 }
 

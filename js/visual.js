@@ -16,23 +16,15 @@ document.addEventListener('DOMContentLoaded', () => {
     let ox = -100, oy = -100;
     let isHovering = false;
 
-    // Dot follows instantly
+    // Outline follows mouse instantly (no lerp — feels direct, not laggy)
     document.addEventListener('mousemove', e => {
         mx = e.clientX;
         my = e.clientY;
-        dot.style.left = mx + 'px';
-        dot.style.top  = my + 'px';
+        outline.style.left = mx + 'px';
+        outline.style.top  = my + 'px';
     });
 
-    // Outline trails with lerp
-    function animateCursor() {
-        ox += (mx - ox) * 0.14;
-        oy += (my - oy) * 0.14;
-        outline.style.left = ox + 'px';
-        outline.style.top  = oy + 'px';
-        requestAnimationFrame(animateCursor);
-    }
-    animateCursor();
+    // (no animateCursor loop needed anymore)
 
     // Hover state on interactive elements
     const INTERACTIVE = 'a, button, input, select, textarea, label, .chip, .track-row, .nav-item, .q-item, .rail-item, .menu-btn, .icon-btn, .ghost, .link-btn, .primary, [role="button"], [tabindex="0"]';
